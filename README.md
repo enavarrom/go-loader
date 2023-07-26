@@ -80,6 +80,9 @@ LOADER_CONFIG_PATH=config.json LOADER_UPLOAD_FOLDER=/home/user/upload REDIS_HOST
 Recuerde modificar los valores de las variables por los de su entorno de trabajo.
 
 
+Una vez arriba puede probar con alguna herramienta como postman a la siguiente URL: POST localhost:8080/upload y debe pasar el archivo en el cuerpo del mensaje.
+
+curl --location 'localhost:8080/upload' --form 'file=@"/home/technical_challenge_data.csv"'
 
 
 
