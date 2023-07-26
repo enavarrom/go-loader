@@ -1,0 +1,19 @@
+{
+  "loaderName": "MeliItemsUpload",
+  "streamName": "saveItems",
+  "delimiter": ",",
+  "fetchSize": 100,
+  "chunkSize": 20,
+  "skipFirstLine": true,
+  "formatFile": "CSV",
+  "fields": [
+    {
+      "fieldName": "site",
+      "index": 1
+    },
+    {
+      "fieldName": "id",
+      "index": 2
+    }
+  ]
+}
